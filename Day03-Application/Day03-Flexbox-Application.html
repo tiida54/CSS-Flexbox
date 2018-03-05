@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+
+  <!-- googleapis 外嵌字體 -->
+  <link href='https://fonts.googleapis.com/css?family=Amatic+SC:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/style-Application.css">
+
+  <title> Day03-Flexbox-Application | BulbCat</title>
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <header class="top">
+      <hi>
+        <a href="#">Flexbox</a>
+      </hi>
+    </header>
+
+    <nav class="flex-nav">
+      <a href="#" class="toggleNav">Menu</a>
+      <ul>
+        <li>
+          <a href="#">Item 01</a>
+        </li>
+        <li>
+          <a href="#">Item 02</a>
+        </li>
+        <li>
+          <a href="#">Item 03</a>
+        </li>
+        <li>
+          <a href="#">Item 04</a>
+        </li>
+        <li>
+          <a href="#">Item 05</a>
+        </li>
+        <li>
+          <a href="#">Item 06</a>
+        </li>
+        <li class="social">
+          <a href="#">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+        <li class="social">
+          <a href="#">
+            <i class="fab fa-facebook"></i>
+          </a>
+        </li>
+        <li class="social">
+          <a href="#">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+        <li class="social">
+          <a href="#">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+      </ul>
+
+    </nav>
+
+    <section class="hero">
+      <img src="https://images.unsplash.com/photo-1476813001184-9044d31e0ad1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8416d3fc2f4bed25a2a36fb687ccd0d0&auto=format&fit=crop&w=1350&q=80"
+        alt="">
+    </section>
+
+    <section class="details">
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam nesciunt tempora cumque illum nobis ipsum quasi suscipit
+        pariatur commodi, nihil dolorum, inventore voluptates adipisci repellendus minima non eveniet error quidem!</p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas, iure sequi fugit ipsam cumque pariatur accusamus
+        minima, harum, architecto debitis distinctio dolorem necessitatibus eius laboriosam laudantium veniam quisquam vero
+        rerum.
+      </p>
+    </section>
+
+    <section class="signup">
+      <form action="" class="signup">
+        <input type="text" name="" id="" placeholder="You Name">
+        <input type="email" name="" id="" placeholder="Email Address">
+        <input type="button" value="Sign me up!">
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy BulbCat</p>
+    </footer>
+  </div>
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+  <!-- Optional JavaScript -->
+  <script>
+    $(function () {
+      $('.toggleNav').on('click', function () {
+        $('.flex-nav ul').toggleClass('open');
+      });
+    });
+  </script>
+
+</body>
+
+</html>
